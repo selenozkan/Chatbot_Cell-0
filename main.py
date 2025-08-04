@@ -9,8 +9,7 @@ from langchain_core.messages import HumanMessage, AIMessage
 load_dotenv()
 
 # create a .env file in the same folder,
-# go to https://aistudio.google.com/app/apikey to get api key
-# add the following variable to the .env file: GEMINI_API_KEY=<type_here>
+# go to https://aistudio.google.com/app/apikey to get api key, add the following variable to the .env file: GEMINI_API_KEY=<type_here>
 gemini_key = os.getenv("GEMINI_API_KEY")
 
 # define the personality of your chatbot
