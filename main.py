@@ -38,8 +38,6 @@ chain = prompt | llm | StrOutputParser()  # | means: output of the <first_variab
 #print("Hello, this is Cell-0. How can i help?")
 
 def chat(user_input, hist):
-    print(user_input, hist)
-
     langchain_history=[]
 
     for item in hist: # which is an empty list in the first execution
