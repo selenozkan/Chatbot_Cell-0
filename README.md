@@ -3,7 +3,7 @@
 Cell-0 is a fast, witty, biology-obsessed chatbot built using [LangChain](https://www.langchain.com/), [Gradio](https://gradio.app/). 
 It answers questions clearly, connects everything back to genetics, and always ends with a nerdy biology joke.
 
-![Chatbot Screenshot](img_readme.png)
+![Chatbot Screenshot](img/img_readme.png)
 
 ## 🧬 Features
 - Direct, clear responses (no fluff)
