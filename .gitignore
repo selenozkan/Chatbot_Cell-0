@@ -1,4 +1,5 @@
 /venv/
 .env
 .gradio
+.ideavenv/
 .idea

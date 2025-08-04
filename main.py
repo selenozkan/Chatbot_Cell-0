@@ -10,7 +10,7 @@ load_dotenv()
 
 # create a .env file in the same folder,
 # go to https://aistudio.google.com/app/apikey to get api key
-# add the following variable to this file: GEMINI_API_KEY=<type_here>
+# add the following variable to the .env file: GEMINI_API_KEY=<type_here>
 gemini_key = os.getenv("GEMINI_API_KEY")
 
 # define the personality of your chatbot
@@ -71,7 +71,7 @@ with page:
     )
     # collects the contents in the chatbot screen (from user and ai)
     chatbot = gr.Chatbot(type="messages",  # we need to declare what kind of format we will retrieve
-                         avatar_images=["user.png", "cell0.png"],
+                         avatar_images=["img/user.png", "img/cell0.png"],
                          show_label=False)
 
     msg = gr.Textbox(show_label=False, placeholder="Ask anything...")
